@@ -1,0 +1,22 @@
+.product-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.divBotao {
+  display: flex;
+  justify-self: center;
+  padding: 10px;
+}
+
+.botao {
+  height: 50px;
+  width: 100px;
+}
+
+.product-list > * {
+  flex: 0 0 calc((100% - 80px) / 5); /* Cada item ocupa 1/5 da largura com espaçamento */
+}

@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+main {
+  background-color: rgb(230, 231, 232);
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

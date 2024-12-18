@@ -1,0 +1,11 @@
+<div class="divBotao">
+
+  <button class="botao" routerLink="/componente">Cadastrar Item</button>
+
+</div>
+
+<div class="product-list">
+  <div *ngFor="let produto of listaProdutos">
+      <app-produto [produto]="produto"></app-produto>
+  </div>
+</div>

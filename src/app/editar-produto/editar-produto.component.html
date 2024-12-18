@@ -1,0 +1,22 @@
+<form>
+
+  <div class="formulario">
+
+    <div class="flex-column">
+      <label for="nome">Nome:</label>
+      <input id="nome" name="nome" [(ngModel)]="produto.nome" type="text">
+    </div>
+
+    <div class="flex-column">
+      <label for="preco">Preço:</label>
+      <input id="preco" name="preco" [(ngModel)]="produto.preco" type="text">
+    </div>
+
+  </div>
+
+  <div class="divBotao">
+    <button (click)="editarProduto()" class="botao">Salvar</button>
+    <button (click)="cancelar()" class="botao">Cancelar</button>
+  </div>
+
+</form>
